@@ -1,0 +1,18 @@
+<p id="notice"><%= notice %></p>
+<p>
+  <h2>Contact Name:</h2>
+  <%= @contact.name %>
+</p>
+<p>
+  <h3>Contact Number:</h3>
+  <%= @contact.phone %>
+</p>
+<p>
+  <strong>Address:</strong>
+  <%= @contact.address %>
+</p>
+<p>
+  <h3>Contact Email:</h3>
+  <%= @contact.email %>
+</p>
+<%= link_to 'Back', contacts_path %>
